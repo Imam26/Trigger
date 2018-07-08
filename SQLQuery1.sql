@@ -19,5 +19,5 @@ id_book int not null foreign key references books(id),
 go 
 create table DeletedBook(
 id int not null primary key identity(1,1),
-id_book int not null foreign key references books(id)
+id_book int not null
 )
